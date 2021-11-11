@@ -396,6 +396,9 @@ body {
 		margin: 0;
 		padding: 0;
 	}
+	.faq_items .item {
+		max-width: 282px;
+	}
 }
 @media screen and (max-width: 1024px) {
 	.wrapper_996 {

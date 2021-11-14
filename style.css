@@ -247,6 +247,8 @@ body {
 	position: absolute;
 	top: 0;
 	right: 0;
+	max-width: 105px;
+	max-height: 100%;
 }
 /* ------------------------- */
 
@@ -426,6 +428,10 @@ body {
 	}
 }
 @media screen and (max-width: 640px) {
+	.support p br {
+		display: none;
+	}
+
 	.social_links {
 		-webkit-box-pack: center;
 		    -ms-flex-pack: center;
